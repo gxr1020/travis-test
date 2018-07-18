@@ -77,3 +77,5 @@ language: node_js
 node_js:
     - "8"
 sudo: required
+before_install:
+  - sudo npm install -g mocha
