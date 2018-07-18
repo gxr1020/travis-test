@@ -1,0 +1,28 @@
+{
+  "name": "travis-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gxr1020/travis-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gxr1020/travis-test/issues"
+  },
+  "homepage": "https://github.com/gxr1020/travis-test#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "mocha": "^5.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
